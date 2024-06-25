@@ -1,8 +1,25 @@
 {
   "name": "month-range-calendar",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "a react component which will help people for building a month range calendar just like a date range picker",
+  "main": "vite.config.js",
+  "keywords": [
+    "month",
+    "range",
+    "calendar"
+  ],
+  "author": "siddhant chopra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhantchopra/month-range-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siddhantchopra/month-range-calendar/issues"
+  },
+  "homepage": "https://github.com/siddhantchopra/month-range-calendar#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
