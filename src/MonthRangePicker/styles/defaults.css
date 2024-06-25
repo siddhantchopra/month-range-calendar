@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.year-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  margin: 15px 0;
+  width: 100%;
+
+  & button {
+    background: none;
+    border: none;
+
+    & svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+
+.month-year-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+  background: #fff;
+  box-shadow: 0 0 4px 0 var(--black-opacity__12), 0 4px 4px 0 var(--black-opacity__24);
+  padding: 15px;
+
+  & input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 0px 10px;
+  }
+
+  & .btn-grp-monthly {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+
+    & button {
+      width: 100%;
+    }
+
+    & .btn.green {
+      background-color: #99424b;
+      color: #fff;
+    }
+
+    & .btn.green.disabled {
+      color: #fff;
+      background-color: rgba(51,51,51,.2);
+      border: 0;
+    }
+  }
+
+  & .brd-none {
+    background: none;
+    border: none;
+  }
+
+  & .brd-none.selected {
+    background-color: #99424b;
+    color: #fff;
+  }
+
+  & .month-tile.brd-none.start,
+  & .month-tile.brd-none.end {
+    background-color: #99424b;
+    color: #fff;
+  }
+
+  & .month-tile.brd-none.range {
+    background-color: #99424b;
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  & .date-inputs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & .fwd-arr {
+      & svg {
+        width: 25px;
+        height: 25px;
+        fill: #ddd;
+      }
+    }
+
+    & input[type=text]:focus {
+      border: 2px solid #b2b2b2;
+    }
+  }
+}
+
+.year-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.month-tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  width: 100%;
+
+  & .disabled {
+    color: #ddd;
+  }
+}
+
+.month-tile {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.selected-month-display {
+  text-align: center;
+  padding: 10px;
+}

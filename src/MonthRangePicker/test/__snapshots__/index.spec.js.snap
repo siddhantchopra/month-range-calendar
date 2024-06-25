@@ -1,0 +1,3559 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Month Range picker test suite <MonthRangepicker /> should render with props(snapshot) 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+    "wrapInvoke": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "getstateOfMonthy": [Function],
+      "labels": Object {
+        "cancel": "cancel",
+        "confirm": "confirm",
+      },
+      "monhtlyValue": Object {
+        "endDate": "2023/02",
+        "endMonth": "02",
+        "endYear": 2023,
+        "selectedMonth": "Jan",
+        "startDate": "2022/01",
+        "startMonth": "01",
+        "startYear": 2022,
+      },
+      "monthlistParent": Array [
+        Object {
+          "className": "start",
+          "disabled": false,
+          "label": "Jan",
+          "value": "01",
+        },
+        Object {
+          "className": "range",
+          "disabled": false,
+          "label": "Feb",
+          "value": "02",
+        },
+        Object {
+          "className": "range",
+          "disabled": false,
+          "label": "Mar",
+          "value": "03",
+        },
+        Object {
+          "className": "range",
+          "disabled": false,
+          "label": "Apr",
+          "value": "04",
+        },
+        Object {
+          "className": "end",
+          "disabled": false,
+          "label": "May",
+          "value": "05",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Jun",
+          "value": "06",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Jul",
+          "value": "07",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Aug",
+          "value": "08",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Sep",
+          "value": "09",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Oct",
+          "value": "10",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Nov",
+          "value": "11",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Dec",
+          "value": "12",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="month-year-picker"
+      >
+        <div
+          class="date-inputs"
+        >
+          <input
+            id="start-month"
+            placeholder=""
+            type="text"
+            value="2022-01"
+          />
+          <span
+            class="fwd-arr"
+          >
+            <svg
+              class="filter-sort-icon"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              role="button"
+              style="vertical-align: middle;"
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                />
+              </g>
+            </svg>
+          </span>
+          <input
+            id="end-month"
+            placeholder=""
+            type="text"
+            value="2023-02"
+          />
+        </div>
+        <div
+          class="year-display"
+        >
+          <button
+            id="minus"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+          2022
+          <button
+            id="plus"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="month-tiles"
+        >
+          <button
+            class="month-tile brd-none 
+           start
+              "
+          >
+            Jan
+          </button>
+          <button
+            class="month-tile brd-none 
+           range
+              "
+          >
+            Feb
+          </button>
+          <button
+            class="month-tile brd-none 
+           range
+              "
+          >
+            Mar
+          </button>
+          <button
+            class="month-tile brd-none 
+           range
+              "
+          >
+            Apr
+          </button>
+          <button
+            class="month-tile brd-none 
+           end
+              "
+          >
+            May
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Jun
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Jul
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Aug
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Sep
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Oct
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Nov
+          </button>
+          <button
+            class="month-tile brd-none 
+           
+              "
+          >
+            Dec
+          </button>
+        </div>
+        <div
+          class="btn-grp-monthly"
+        >
+          <button
+            class="btn cancel"
+          >
+            cancel
+          </button>
+          <button
+            class="btn green "
+          >
+            confirm
+          </button>
+        </div>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="date-inputs"
+          >
+            <input
+              id="start-month"
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              type="text"
+              value="2022-01"
+            />
+            <span
+              className="fwd-arr"
+            >
+              <CustomIcon
+                className="filter-sort-icon"
+                role="button"
+                size=""
+                type="fwdArrow"
+              />
+            </span>
+            <input
+              id="end-month"
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              type="text"
+              value="2023-02"
+            />
+          </div>,
+          <div
+            className="year-display"
+          >
+            <button
+              id="minus"
+              onClick={[Function]}
+            >
+              <MdNavigateBefore />
+            </button>
+            2022
+            <button
+              id="plus"
+              onClick={[Function]}
+            >
+              <MdNavigateNext />
+            </button>
+          </div>,
+          <div
+            className="month-tiles"
+          >
+            <button
+              className="month-tile brd-none 
+           start
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Jan
+            </button>
+            <button
+              className="month-tile brd-none 
+           range
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Feb
+            </button>
+            <button
+              className="month-tile brd-none 
+           range
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Mar
+            </button>
+            <button
+              className="month-tile brd-none 
+           range
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Apr
+            </button>
+            <button
+              className="month-tile brd-none 
+           end
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              May
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Jun
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Jul
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Aug
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Sep
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Oct
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Nov
+            </button>
+            <button
+              className="month-tile brd-none 
+           
+              "
+              disabled={false}
+              onClick={[Function]}
+            >
+              Dec
+            </button>
+          </div>,
+          <div
+            className="btn-grp-monthly"
+          >
+            <button
+              className="btn cancel"
+              onClick={[Function]}
+            >
+              cancel
+            </button>
+            <button
+              className="btn green "
+              disabled={false}
+              onClick={[Function]}
+            >
+              confirm
+            </button>
+          </div>,
+        ],
+        "className": "month-year-picker",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div
+            class="date-inputs"
+          >
+            <input
+              id="start-month"
+              placeholder=""
+              type="text"
+              value="2022-01"
+            />
+            <span
+              class="fwd-arr"
+            >
+              <svg
+                class="filter-sort-icon"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                role="button"
+                style="vertical-align: middle;"
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                  />
+                </g>
+              </svg>
+            </span>
+            <input
+              id="end-month"
+              placeholder=""
+              type="text"
+              value="2023-02"
+            />
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                id="start-month"
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                type="text"
+                value="2022-01"
+              />,
+              <span
+                className="fwd-arr"
+              >
+                <CustomIcon
+                  className="filter-sort-icon"
+                  role="button"
+                  size=""
+                  type="fwdArrow"
+                />
+              </span>,
+              <input
+                id="end-month"
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                type="text"
+                value="2023-02"
+              />,
+            ],
+            "className": "date-inputs",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <input
+                id="start-month"
+                placeholder=""
+                type="text"
+                value="2022-01"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "start-month",
+                "onChange": [Function],
+                "onFocus": [Function],
+                "placeholder": "",
+                "type": "text",
+                "value": "2022-01",
+              },
+              "ref": Object {
+                "current": <input
+                  id="start-month"
+                  placeholder=""
+                  type="text"
+                  value="2022-01"
+                />,
+              },
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+            Object {
+              "instance": <span
+                class="fwd-arr"
+              >
+                <svg
+                  class="filter-sort-icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="button"
+                  style="vertical-align: middle;"
+                  viewBox="0 0 40 40"
+                  width="1em"
+                >
+                  <g>
+                    <path
+                      d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                    />
+                  </g>
+                </svg>
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <CustomIcon
+                  className="filter-sort-icon"
+                  role="button"
+                  size=""
+                  type="fwdArrow"
+                />,
+                "className": "fwd-arr",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "filter-sort-icon",
+                    "role": "button",
+                    "size": "",
+                    "type": "fwdArrow",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "filter-sort-icon",
+                      "focusable": "false",
+                      "role": "button",
+                      "size": "",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": <g>
+                          <path
+                            d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                          />
+                        </g>,
+                        "className": "filter-sort-icon",
+                        "focusable": "false",
+                        "role": "button",
+                        "size": "",
+                        "viewBox": "0 0 40 40",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <svg
+                          class="filter-sort-icon"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          preserveAspectRatio="xMidYMid meet"
+                          role="button"
+                          style="vertical-align: middle;"
+                          viewBox="0 0 40 40"
+                          width="1em"
+                        >
+                          <g>
+                            <path
+                              d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                            />
+                          </g>
+                        </svg>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <g>
+                            <path
+                              d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                            />
+                          </g>,
+                          "className": "filter-sort-icon",
+                          "fill": "currentColor",
+                          "focusable": "false",
+                          "height": "1em",
+                          "preserveAspectRatio": "xMidYMid meet",
+                          "role": "button",
+                          "style": Object {
+                            "color": undefined,
+                            "verticalAlign": "middle",
+                          },
+                          "viewBox": "0 0 40 40",
+                          "width": "1em",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <g>
+                              <path
+                                d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                              />
+                            </g>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <path
+                                d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                              />,
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": <path
+                                  d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                                />,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "d": "m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  undefined,
+                                ],
+                                "type": "path",
+                              },
+                            ],
+                            "type": "g",
+                          },
+                        ],
+                        "type": "svg",
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": <input
+                id="end-month"
+                placeholder=""
+                type="text"
+                value="2023-02"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "end-month",
+                "onChange": [Function],
+                "onFocus": [Function],
+                "placeholder": "",
+                "type": "text",
+                "value": "2023-02",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="year-display"
+          >
+            <button
+              id="minus"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+            </button>
+            2022
+            <button
+              id="plus"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                id="minus"
+                onClick={[Function]}
+              >
+                <MdNavigateBefore />
+              </button>,
+              2022,
+              <button
+                id="plus"
+                onClick={[Function]}
+              >
+                <MdNavigateNext />
+              </button>,
+            ],
+            "className": "year-display",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                id="minus"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                  />
+                </svg>
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MdNavigateBefore />,
+                "id": "minus",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "attr": Object {
+                        "viewBox": "0 0 24 24",
+                      },
+                      "children": Array [
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />,
+                        <path
+                          d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                        />,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                        />
+                      </svg>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          undefined,
+                          Array [
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />,
+                            <path
+                              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                            />,
+                          ],
+                        ],
+                        "className": undefined,
+                        "fill": "currentColor",
+                        "height": "1em",
+                        "stroke": "currentColor",
+                        "strokeWidth": "0",
+                        "style": Object {
+                          "color": undefined,
+                        },
+                        "viewBox": "0 0 24 24",
+                        "width": "1em",
+                        "xmlns": "http://www.w3.org/2000/svg",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "d": "M0 0h24v24H0z",
+                            "fill": "none",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "path",
+                        },
+                        Object {
+                          "instance": <path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                          />,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "d": "M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "path",
+                        },
+                      ],
+                      "type": "svg",
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "button",
+            },
+            "2022",
+            Object {
+              "instance": <button
+                id="plus"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MdNavigateNext />,
+                "id": "plus",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "attr": Object {
+                        "viewBox": "0 0 24 24",
+                      },
+                      "children": Array [
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />,
+                        <path
+                          d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                        />,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                        />
+                      </svg>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          undefined,
+                          Array [
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />,
+                            <path
+                              d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                            />,
+                          ],
+                        ],
+                        "className": undefined,
+                        "fill": "currentColor",
+                        "height": "1em",
+                        "stroke": "currentColor",
+                        "strokeWidth": "0",
+                        "style": Object {
+                          "color": undefined,
+                        },
+                        "viewBox": "0 0 24 24",
+                        "width": "1em",
+                        "xmlns": "http://www.w3.org/2000/svg",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "d": "M0 0h24v24H0z",
+                            "fill": "none",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "path",
+                        },
+                        Object {
+                          "instance": <path
+                            d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                          />,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": undefined,
+                            "d": "M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            undefined,
+                          ],
+                          "type": "path",
+                        },
+                      ],
+                      "type": "svg",
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="month-tiles"
+          >
+            <button
+              class="month-tile brd-none 
+           start
+              "
+            >
+              Jan
+            </button>
+            <button
+              class="month-tile brd-none 
+           range
+              "
+            >
+              Feb
+            </button>
+            <button
+              class="month-tile brd-none 
+           range
+              "
+            >
+              Mar
+            </button>
+            <button
+              class="month-tile brd-none 
+           range
+              "
+            >
+              Apr
+            </button>
+            <button
+              class="month-tile brd-none 
+           end
+              "
+            >
+              May
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Jun
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Jul
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Aug
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Sep
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Oct
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Nov
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Dec
+            </button>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="month-tile brd-none 
+           start
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Jan
+              </button>,
+              <button
+                className="month-tile brd-none 
+           range
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Feb
+              </button>,
+              <button
+                className="month-tile brd-none 
+           range
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Mar
+              </button>,
+              <button
+                className="month-tile brd-none 
+           range
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Apr
+              </button>,
+              <button
+                className="month-tile brd-none 
+           end
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                May
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Jun
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Jul
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Aug
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Sep
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Oct
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Nov
+              </button>,
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Dec
+              </button>,
+            ],
+            "className": "month-tiles",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           start
+              "
+              >
+                Jan
+              </button>,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jan",
+                "className": "month-tile brd-none 
+           start
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Jan",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           range
+              "
+              >
+                Feb
+              </button>,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Feb",
+                "className": "month-tile brd-none 
+           range
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Feb",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           range
+              "
+              >
+                Mar
+              </button>,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mar",
+                "className": "month-tile brd-none 
+           range
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Mar",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           range
+              "
+              >
+                Apr
+              </button>,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Apr",
+                "className": "month-tile brd-none 
+           range
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Apr",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           end
+              "
+              >
+                May
+              </button>,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": "May",
+                "className": "month-tile brd-none 
+           end
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "May",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Jun
+              </button>,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jun",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Jun",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Jul
+              </button>,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jul",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Jul",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Aug
+              </button>,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Aug",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Aug",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Sep
+              </button>,
+              "key": "8",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sep",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sep",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Oct
+              </button>,
+              "key": "9",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Oct",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Oct",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Nov
+              </button>,
+              "key": "10",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Nov",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Nov",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Dec
+              </button>,
+              "key": "11",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dec",
+                "className": "month-tile brd-none 
+           
+              ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Dec",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="btn-grp-monthly"
+          >
+            <button
+              class="btn cancel"
+            >
+              cancel
+            </button>
+            <button
+              class="btn green "
+            >
+              confirm
+            </button>
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn cancel"
+                onClick={[Function]}
+              >
+                cancel
+              </button>,
+              <button
+                className="btn green "
+                disabled={false}
+                onClick={[Function]}
+              >
+                confirm
+              </button>,
+            ],
+            "className": "btn-grp-monthly",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class="btn cancel"
+              >
+                cancel
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "cancel",
+                "className": "btn cancel",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "cancel",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": <button
+                class="btn green "
+              >
+                confirm
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "confirm",
+                "className": "btn green ",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "confirm",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "getstateOfMonthy": [Function],
+        "labels": Object {
+          "cancel": "cancel",
+          "confirm": "confirm",
+        },
+        "monhtlyValue": Object {
+          "endDate": "2023/02",
+          "endMonth": "02",
+          "endYear": 2023,
+          "selectedMonth": "Jan",
+          "startDate": "2022/01",
+          "startMonth": "01",
+          "startYear": 2022,
+        },
+        "monthlistParent": Array [
+          Object {
+            "className": "start",
+            "disabled": false,
+            "label": "Jan",
+            "value": "01",
+          },
+          Object {
+            "className": "range",
+            "disabled": false,
+            "label": "Feb",
+            "value": "02",
+          },
+          Object {
+            "className": "range",
+            "disabled": false,
+            "label": "Mar",
+            "value": "03",
+          },
+          Object {
+            "className": "range",
+            "disabled": false,
+            "label": "Apr",
+            "value": "04",
+          },
+          Object {
+            "className": "end",
+            "disabled": false,
+            "label": "May",
+            "value": "05",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Jun",
+            "value": "06",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Jul",
+            "value": "07",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Aug",
+            "value": "08",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Sep",
+            "value": "09",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Oct",
+            "value": "10",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Nov",
+            "value": "11",
+          },
+          Object {
+            "className": "",
+            "disabled": false,
+            "label": "Dec",
+            "value": "12",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="month-year-picker"
+        >
+          <div
+            class="date-inputs"
+          >
+            <input
+              id="start-month"
+              placeholder=""
+              type="text"
+              value="2022-01"
+            />
+            <span
+              class="fwd-arr"
+            >
+              <svg
+                class="filter-sort-icon"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                role="button"
+                style="vertical-align: middle;"
+                viewBox="0 0 40 40"
+                width="1em"
+              >
+                <g>
+                  <path
+                    d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                  />
+                </g>
+              </svg>
+            </span>
+            <input
+              id="end-month"
+              placeholder=""
+              type="text"
+              value="2023-02"
+            />
+          </div>
+          <div
+            class="year-display"
+          >
+            <button
+              id="minus"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+            </button>
+            2022
+            <button
+              id="plus"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="month-tiles"
+          >
+            <button
+              class="month-tile brd-none 
+           start
+              "
+            >
+              Jan
+            </button>
+            <button
+              class="month-tile brd-none 
+           range
+              "
+            >
+              Feb
+            </button>
+            <button
+              class="month-tile brd-none 
+           range
+              "
+            >
+              Mar
+            </button>
+            <button
+              class="month-tile brd-none 
+           range
+              "
+            >
+              Apr
+            </button>
+            <button
+              class="month-tile brd-none 
+           end
+              "
+            >
+              May
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Jun
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Jul
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Aug
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Sep
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Oct
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Nov
+            </button>
+            <button
+              class="month-tile brd-none 
+           
+              "
+            >
+              Dec
+            </button>
+          </div>
+          <div
+            class="btn-grp-monthly"
+          >
+            <button
+              class="btn cancel"
+            >
+              cancel
+            </button>
+            <button
+              class="btn green "
+            >
+              confirm
+            </button>
+          </div>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="date-inputs"
+            >
+              <input
+                id="start-month"
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                type="text"
+                value="2022-01"
+              />
+              <span
+                className="fwd-arr"
+              >
+                <CustomIcon
+                  className="filter-sort-icon"
+                  role="button"
+                  size=""
+                  type="fwdArrow"
+                />
+              </span>
+              <input
+                id="end-month"
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                type="text"
+                value="2023-02"
+              />
+            </div>,
+            <div
+              className="year-display"
+            >
+              <button
+                id="minus"
+                onClick={[Function]}
+              >
+                <MdNavigateBefore />
+              </button>
+              2022
+              <button
+                id="plus"
+                onClick={[Function]}
+              >
+                <MdNavigateNext />
+              </button>
+            </div>,
+            <div
+              className="month-tiles"
+            >
+              <button
+                className="month-tile brd-none 
+           start
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Jan
+              </button>
+              <button
+                className="month-tile brd-none 
+           range
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Feb
+              </button>
+              <button
+                className="month-tile brd-none 
+           range
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Mar
+              </button>
+              <button
+                className="month-tile brd-none 
+           range
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Apr
+              </button>
+              <button
+                className="month-tile brd-none 
+           end
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                May
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Jun
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Jul
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Aug
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Sep
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Oct
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Nov
+              </button>
+              <button
+                className="month-tile brd-none 
+           
+              "
+                disabled={false}
+                onClick={[Function]}
+              >
+                Dec
+              </button>
+            </div>,
+            <div
+              className="btn-grp-monthly"
+            >
+              <button
+                className="btn cancel"
+                onClick={[Function]}
+              >
+                cancel
+              </button>
+              <button
+                className="btn green "
+                disabled={false}
+                onClick={[Function]}
+              >
+                confirm
+              </button>
+            </div>,
+          ],
+          "className": "month-year-picker",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div
+              class="date-inputs"
+            >
+              <input
+                id="start-month"
+                placeholder=""
+                type="text"
+                value="2022-01"
+              />
+              <span
+                class="fwd-arr"
+              >
+                <svg
+                  class="filter-sort-icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="button"
+                  style="vertical-align: middle;"
+                  viewBox="0 0 40 40"
+                  width="1em"
+                >
+                  <g>
+                    <path
+                      d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <input
+                id="end-month"
+                placeholder=""
+                type="text"
+                value="2023-02"
+              />
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  id="start-month"
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder=""
+                  type="text"
+                  value="2022-01"
+                />,
+                <span
+                  className="fwd-arr"
+                >
+                  <CustomIcon
+                    className="filter-sort-icon"
+                    role="button"
+                    size=""
+                    type="fwdArrow"
+                  />
+                </span>,
+                <input
+                  id="end-month"
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder=""
+                  type="text"
+                  value="2023-02"
+                />,
+              ],
+              "className": "date-inputs",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <input
+                  id="start-month"
+                  placeholder=""
+                  type="text"
+                  value="2022-01"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "start-month",
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "placeholder": "",
+                  "type": "text",
+                  "value": "2022-01",
+                },
+                "ref": Object {
+                  "current": <input
+                    id="start-month"
+                    placeholder=""
+                    type="text"
+                    value="2022-01"
+                  />,
+                },
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
+              Object {
+                "instance": <span
+                  class="fwd-arr"
+                >
+                  <svg
+                    class="filter-sort-icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="button"
+                    style="vertical-align: middle;"
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                      />
+                    </g>
+                  </svg>
+                </span>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <CustomIcon
+                    className="filter-sort-icon"
+                    role="button"
+                    size=""
+                    type="fwdArrow"
+                  />,
+                  "className": "fwd-arr",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "filter-sort-icon",
+                      "role": "button",
+                      "size": "",
+                      "type": "fwdArrow",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "className": "filter-sort-icon",
+                        "focusable": "false",
+                        "role": "button",
+                        "size": "",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": <g>
+                            <path
+                              d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                            />
+                          </g>,
+                          "className": "filter-sort-icon",
+                          "focusable": "false",
+                          "role": "button",
+                          "size": "",
+                          "viewBox": "0 0 40 40",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": <svg
+                            class="filter-sort-icon"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            preserveAspectRatio="xMidYMid meet"
+                            role="button"
+                            style="vertical-align: middle;"
+                            viewBox="0 0 40 40"
+                            width="1em"
+                          >
+                            <g>
+                              <path
+                                d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                              />
+                            </g>
+                          </svg>,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <g>
+                              <path
+                                d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                              />
+                            </g>,
+                            "className": "filter-sort-icon",
+                            "fill": "currentColor",
+                            "focusable": "false",
+                            "height": "1em",
+                            "preserveAspectRatio": "xMidYMid meet",
+                            "role": "button",
+                            "style": Object {
+                              "color": undefined,
+                              "verticalAlign": "middle",
+                            },
+                            "viewBox": "0 0 40 40",
+                            "width": "1em",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": <g>
+                                <path
+                                  d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                                />
+                              </g>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": <path
+                                  d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                                />,
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": <path
+                                    d="m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z"
+                                  />,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "d": "m20 6.6l13.4 13.4-13.4 13.4-2.3-2.4 9.3-9.4h-20.4v-3.2h20.4l-9.3-9.4z",
+                                  },
+                                  "ref": null,
+                                  "rendered": Array [
+                                    undefined,
+                                  ],
+                                  "type": "path",
+                                },
+                              ],
+                              "type": "g",
+                            },
+                          ],
+                          "type": "svg",
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": <input
+                  id="end-month"
+                  placeholder=""
+                  type="text"
+                  value="2023-02"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "end-month",
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "placeholder": "",
+                  "type": "text",
+                  "value": "2023-02",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="year-display"
+            >
+              <button
+                id="minus"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                  />
+                </svg>
+              </button>
+              2022
+              <button
+                id="plus"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </button>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  id="minus"
+                  onClick={[Function]}
+                >
+                  <MdNavigateBefore />
+                </button>,
+                2022,
+                <button
+                  id="plus"
+                  onClick={[Function]}
+                >
+                  <MdNavigateNext />
+                </button>,
+              ],
+              "className": "year-display",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  id="minus"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    />
+                  </svg>
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <MdNavigateBefore />,
+                  "id": "minus",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "attr": Object {
+                          "viewBox": "0 0 24 24",
+                        },
+                        "children": Array [
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />,
+                          <path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <svg
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                          />
+                        </svg>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            undefined,
+                            Array [
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />,
+                              <path
+                                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                              />,
+                            ],
+                          ],
+                          "className": undefined,
+                          "fill": "currentColor",
+                          "height": "1em",
+                          "stroke": "currentColor",
+                          "strokeWidth": "0",
+                          "style": Object {
+                            "color": undefined,
+                          },
+                          "viewBox": "0 0 24 24",
+                          "width": "1em",
+                          "xmlns": "http://www.w3.org/2000/svg",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />,
+                            "key": "0",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "d": "M0 0h24v24H0z",
+                              "fill": "none",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "path",
+                          },
+                          Object {
+                            "instance": <path
+                              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                            />,
+                            "key": "1",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "d": "M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "path",
+                          },
+                        ],
+                        "type": "svg",
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "button",
+              },
+              "2022",
+              Object {
+                "instance": <button
+                  id="plus"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <MdNavigateNext />,
+                  "id": "plus",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "attr": Object {
+                          "viewBox": "0 0 24 24",
+                        },
+                        "children": Array [
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />,
+                          <path
+                            d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": <svg
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                          />
+                        </svg>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            undefined,
+                            Array [
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />,
+                              <path
+                                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                              />,
+                            ],
+                          ],
+                          "className": undefined,
+                          "fill": "currentColor",
+                          "height": "1em",
+                          "stroke": "currentColor",
+                          "strokeWidth": "0",
+                          "style": Object {
+                            "color": undefined,
+                          },
+                          "viewBox": "0 0 24 24",
+                          "width": "1em",
+                          "xmlns": "http://www.w3.org/2000/svg",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />,
+                            "key": "0",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "d": "M0 0h24v24H0z",
+                              "fill": "none",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "path",
+                          },
+                          Object {
+                            "instance": <path
+                              d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                            />,
+                            "key": "1",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                              "d": "M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              undefined,
+                            ],
+                            "type": "path",
+                          },
+                        ],
+                        "type": "svg",
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="month-tiles"
+            >
+              <button
+                class="month-tile brd-none 
+           start
+              "
+              >
+                Jan
+              </button>
+              <button
+                class="month-tile brd-none 
+           range
+              "
+              >
+                Feb
+              </button>
+              <button
+                class="month-tile brd-none 
+           range
+              "
+              >
+                Mar
+              </button>
+              <button
+                class="month-tile brd-none 
+           range
+              "
+              >
+                Apr
+              </button>
+              <button
+                class="month-tile brd-none 
+           end
+              "
+              >
+                May
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Jun
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Jul
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Aug
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Sep
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Oct
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Nov
+              </button>
+              <button
+                class="month-tile brd-none 
+           
+              "
+              >
+                Dec
+              </button>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="month-tile brd-none 
+           start
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Jan
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           range
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Feb
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           range
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Mar
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           range
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Apr
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           end
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  May
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Jun
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Jul
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Aug
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Sep
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Oct
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Nov
+                </button>,
+                <button
+                  className="month-tile brd-none 
+           
+              "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Dec
+                </button>,
+              ],
+              "className": "month-tiles",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           start
+              "
+                >
+                  Jan
+                </button>,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jan",
+                  "className": "month-tile brd-none 
+           start
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Jan",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           range
+              "
+                >
+                  Feb
+                </button>,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Feb",
+                  "className": "month-tile brd-none 
+           range
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Feb",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           range
+              "
+                >
+                  Mar
+                </button>,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mar",
+                  "className": "month-tile brd-none 
+           range
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Mar",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           range
+              "
+                >
+                  Apr
+                </button>,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Apr",
+                  "className": "month-tile brd-none 
+           range
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Apr",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           end
+              "
+                >
+                  May
+                </button>,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "May",
+                  "className": "month-tile brd-none 
+           end
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "May",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Jun
+                </button>,
+                "key": "5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jun",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Jun",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Jul
+                </button>,
+                "key": "6",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jul",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Jul",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Aug
+                </button>,
+                "key": "7",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Aug",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Aug",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Sep
+                </button>,
+                "key": "8",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sep",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Sep",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Oct
+                </button>,
+                "key": "9",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Oct",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Oct",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Nov
+                </button>,
+                "key": "10",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Nov",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Nov",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="month-tile brd-none 
+           
+              "
+                >
+                  Dec
+                </button>,
+                "key": "11",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Dec",
+                  "className": "month-tile brd-none 
+           
+              ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Dec",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="btn-grp-monthly"
+            >
+              <button
+                class="btn cancel"
+              >
+                cancel
+              </button>
+              <button
+                class="btn green "
+              >
+                confirm
+              </button>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="btn cancel"
+                  onClick={[Function]}
+                >
+                  cancel
+                </button>,
+                <button
+                  className="btn green "
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  confirm
+                </button>,
+              ],
+              "className": "btn-grp-monthly",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class="btn cancel"
+                >
+                  cancel
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "cancel",
+                  "className": "btn cancel",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "cancel",
+                ],
+                "type": "button",
+              },
+              Object {
+                "instance": <button
+                  class="btn green "
+                >
+                  confirm
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "confirm",
+                  "className": "btn green ",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "confirm",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <MonthYearPicker
+    getstateOfMonthy={[Function]}
+    labels={
+      Object {
+        "cancel": "cancel",
+        "confirm": "confirm",
+      }
+    }
+    monhtlyValue={
+      Object {
+        "endDate": "2023/02",
+        "endMonth": "02",
+        "endYear": 2023,
+        "selectedMonth": "Jan",
+        "startDate": "2022/01",
+        "startMonth": "01",
+        "startYear": 2022,
+      }
+    }
+    monthlistParent={
+      Array [
+        Object {
+          "className": "start",
+          "disabled": false,
+          "label": "Jan",
+          "value": "01",
+        },
+        Object {
+          "className": "range",
+          "disabled": false,
+          "label": "Feb",
+          "value": "02",
+        },
+        Object {
+          "className": "range",
+          "disabled": false,
+          "label": "Mar",
+          "value": "03",
+        },
+        Object {
+          "className": "range",
+          "disabled": false,
+          "label": "Apr",
+          "value": "04",
+        },
+        Object {
+          "className": "end",
+          "disabled": false,
+          "label": "May",
+          "value": "05",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Jun",
+          "value": "06",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Jul",
+          "value": "07",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Aug",
+          "value": "08",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Sep",
+          "value": "09",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Oct",
+          "value": "10",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Nov",
+          "value": "11",
+        },
+        Object {
+          "className": "",
+          "disabled": false,
+          "label": "Dec",
+          "value": "12",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__updatedBy__): null,
+}
+`;
