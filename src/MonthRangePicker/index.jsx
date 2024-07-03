@@ -1,11 +1,12 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 import PropTypes from "prop-types";
 import "./styles/index.css";
+import { labels } from "./constants/labels";
 
-function MonthYearPicker({ getstateOfMonthy, monhtlyValue, labels, monthlistParent, rangeYear }) {
+function MonthYearPicker({ getstateFromMYP, labels, rangeYear, className }) {
   const months = [
     {
       label: "Jan",
@@ -113,6 +114,7 @@ function MonthYearPicker({ getstateOfMonthy, monhtlyValue, labels, monthlistPare
   
     const mon = monthlist.map(month => generateMonthClassNames(month));
     setMonths(mon);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [displayYear, endMonth]);
 
   const handleMonthTileClick = (month) => {
@@ -187,9 +189,9 @@ function MonthYearPicker({ getstateOfMonthy, monhtlyValue, labels, monthlistPare
   };
  
   const handleApply=()=>{
-    getstateOfMonthy({
+    getstateFromMYP({
       ...dateObj
-    }, false, monthlist);
+    }, monthlist);
   }
   const handleCancel=()=>{
     inputRef.current.focus();
@@ -197,7 +199,7 @@ function MonthYearPicker({ getstateOfMonthy, monhtlyValue, labels, monthlistPare
     setStartYear(currentYear);
     setEndMonth("");
     setEndYear(currentYear);
-    getstateOfMonthy({
+    getstateFromMYP({
       endDate: null,
       endMonth: null,
       startDate: null,
@@ -206,7 +208,7 @@ function MonthYearPicker({ getstateOfMonthy, monhtlyValue, labels, monthlistPare
   }
 
   return (
-    <div className="month-year-picker">
+    <div className={`month-year-picker ${className}`}>
       <div className="date-inputs">
         <input
           type="text"
@@ -278,12 +280,17 @@ function MonthYearPicker({ getstateOfMonthy, monhtlyValue, labels, monthlistPare
   );
 }
 
+MonthYearPicker.defaultProps = {
+  labels: labels,
+  rangeYear: 2,
+  className: 'yourOwnClass'
+};
+
 MonthYearPicker.propTypes = {
-  getstateOfMonthy: PropTypes.func.isRequired,
-  monhtlyValue: PropTypes.instanceOf(Object).isRequired,
-  labels: PropTypes.instanceOf(Object).isRequired,
-  monthlistParent: PropTypes.instanceOf(Array).isRequired,
-  rangeYear: PropTypes.number.isRequired
+  getstateFromMYP: PropTypes.func.isRequired,
+  labels: PropTypes.instanceOf(Object),
+  rangeYear: PropTypes.number,
+  className: PropTypes.string
 };
 
 export default MonthYearPicker;
