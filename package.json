@@ -1,6 +1,6 @@
 {
   "name": "month-range-calendar",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "description": "a react component which will help people for building a month range calendar just like a date range picker",
