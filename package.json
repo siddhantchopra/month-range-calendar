@@ -1,7 +1,7 @@
 {
   "name": "month-range-calendar",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "a react component which will help people for building a month range calendar just like a date range picker",
   "main": "vite.config.js",
