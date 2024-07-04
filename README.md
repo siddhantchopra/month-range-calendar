@@ -1,8 +1,7 @@
-# React + Vite
+# Month Range Calendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This react component will make your work easy to make a Month Range calendar in which the future dates are disabled and you can specify the range of year you want
 
-Currently, two official plugins are available:
+Preview of the Component:
+- ![image](https://github.com/siddhantchopra/month-range-calendar/assets/30842286/77a504a3-3fee-4311-b0a6-d331540e3d2a)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
